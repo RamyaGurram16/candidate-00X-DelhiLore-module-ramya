@@ -1,0 +1,10 @@
+.footer {
+  background-color: pink;
+  text-align: center;
+  padding: 15px 0;
+  font-family: 'Lora', serif;
+  color: #424242;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}

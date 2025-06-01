@@ -1,0 +1,78 @@
+.header {
+  position: fixed; /* So it stays on top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: pink;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #E91E63;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  padding-right:30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #424242;
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #E91E63;
+}
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.bar {
+  width: 25px;
+  margin-right: 30px;
+  height: 3px;
+  background-color: #424242;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left:0;
+    background-color: ivory;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+    z-index: 999;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+}

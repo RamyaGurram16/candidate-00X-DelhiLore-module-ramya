@@ -1,0 +1,85 @@
+.submit-form {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: ivory;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Lora', serif;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.submit-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #424242;
+  font-size: 1rem;
+}
+
+.submit-form input,
+.submit-form textarea {
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.submit-form input:focus,
+.submit-form textarea:focus {
+  outline: none;
+  border-color: #E91E63; /* Primary Coral */
+  box-shadow: 0 0 8px rgba(233, 30, 99, 0.3);
+}
+
+.submit-btn {
+  padding: 12px 20px;
+  background-color: #E91E63;
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #c2185b;
+}
+
+.error {
+  color: #c2185b;
+  font-size: 0.85rem;
+  margin-top: 3px;
+}
+
+.thank-you {
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: 'Playfair Display', serif;
+  color: #424242;
+  margin-top: 40px;
+}
+
+.delete-btn {
+  background-color: #E91E63; /* Primary Coral */
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  margin-top: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c2185b;
+}
+

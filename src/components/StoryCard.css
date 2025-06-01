@@ -1,0 +1,55 @@
+.card {
+  background-color: #fff; /* White card */
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(233, 30, 99, 0.3); /* coral glow */
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+  object-fit: cover;
+  height: 200px;
+  margin-bottom: 12px;
+}
+
+.card-title {
+  font-family: 'Playfair Display', serif;
+  color: #424242; /* Accent Charcoal */
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.card-snippet {
+  font-family: 'Lora', serif;
+  color: #666; /* Slightly lighter charcoal for body text */
+  font-size: 0.9rem;
+  flex-grow: 1;
+  margin-bottom: 15px;
+}
+
+.read-more {
+  align-self: flex-start;
+  padding: 8px 16px;
+  font-family: 'Lora', serif;
+  font-size: 0.9rem;
+  background-color: #E91E63; /* Primary Coral */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(233, 30, 99, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #c2185b; /* Slightly darker coral */
+}
