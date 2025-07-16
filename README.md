@@ -68,10 +68,6 @@ README.md
 
 ---
 
-## Author
-
-Candidate 00X  
-Email: your.email@example.com  
 
 ---
 
